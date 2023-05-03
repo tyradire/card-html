@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../vendor/fonts/icomoon/icomoon.woff?1xuhge') format('woff'),
+        url('../vendor/fonts/icomoon/icomoon.eot?1xuhge#iefix') format('embedded-opentype'),
+        url('../vendor/fonts/icomoon/icomoon.ttf?1xuhge') format('truetype'),
+        url('../vendor/fonts/icomoon.svg?1xuhge#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon';
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon2-bookmark:before {
+  content: "\e942";
+  color: #5e656e;
+}
+.icon-icon2-chat_bubble:before {
+  content: "\e923";
+  color: #5e656e;
+}
+.icon-icon2-eye:before {
+  content: "\e9ab";
+}
+.icon-icon2-favorite:before {
+  content: "\e931";
+  color: #5e656e;
+}

@@ -1,0 +1,11 @@
+@import url('../blocks/card/card.css');
+@import url('../blocks/info/info.css');
+@import url('../blocks/controls/controls.css');
+@import url('./icomon.css');
+
+body {
+  font-family: 'Golos Text', sans-serif;
+  margin: 0;
+  background-color: #F5F5F5;
+  color: #0D0D0D;
+}

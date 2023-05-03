@@ -1,0 +1,28 @@
+.controls {
+  padding: 16px 21px;
+  display: flex;
+}
+
+.controls__button {
+  padding: 0;
+  margin-left: 25px;
+  font-family: 'Golos Text', sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5E656E;
+  display: flex;
+  align-items: center;
+}
+
+.controls__button:first-of-type {
+  margin-left: 0;
+}
+
+.controls__icon {
+  margin-right: 6px;
+  font-size: 22px;
+}

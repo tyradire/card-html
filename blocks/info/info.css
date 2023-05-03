@@ -1,0 +1,43 @@
+.info {
+  padding: 16px;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.info__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+
+.info__icon {
+  margin-right: 5px;
+}
+
+.info__author {
+  margin: 0;
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.info__date {
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5E656E;
+}
+
+@media screen and (max-width: 525px) {
+  .info__author {
+    display: none;
+  }
+}

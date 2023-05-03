@@ -2,6 +2,7 @@
 @import url('../blocks/info/info.css');
 @import url('../blocks/controls/controls.css');
 @import url('./icomon.css');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&display=swap');
 
 body {
   font-family: 'Golos Text', sans-serif;

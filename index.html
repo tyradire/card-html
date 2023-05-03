@@ -10,9 +10,6 @@
   >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/index.css" type="text/css"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&display=swap" rel="stylesheet">
   <title>Карточка</title>
 </head>
 <body>
@@ -40,14 +37,14 @@
         <img class="card__image" src="./images/img.svg" alt="Снимки выдачи. Зачем нужны и как пользоваться" />
       </a>
       <div class="controls">
-        <button class="controls__button">
+        <button class="controls__button" aria-label="favorite">
           <i class="controls__icon icon-icon2-favorite"></i>
           12 842
         </button>
-        <button class="controls__button">
+        <button class="controls__button" aria-label="bookmark">
           <i class="controls__icon icon-icon2-bookmark"></i>
         </button>
-        <button class="controls__button">
+        <button class="controls__button" aria-label="comment">
           <i class="controls__icon icon-icon2-chat_bubble"></i>
           Обсудить
         </button>
